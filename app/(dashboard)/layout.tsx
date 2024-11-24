@@ -33,11 +33,7 @@ import { NavItem } from './nav-item';
 import { SearchInput } from './search';
 import ThemeSwitch from '@/components/ui/theme-switch';
 
-export default function DashboardLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
+export default function DashboardLayout({children}: { children: React.ReactNode}) {
   return (
     <Providers>
       <main className="flex min-h-screen w-full flex-col bg-muted/40">
